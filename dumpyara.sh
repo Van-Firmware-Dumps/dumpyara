@@ -257,6 +257,7 @@ if [[ -n $GIT_OAUTH_TOKEN ]]; then
     git remote add origin https://github.com/$ORG/"${repo,,}".git
     git checkout -b "$branch"
     find . -size +97M -printf '%P\n' -o -name "*sensetime*" -printf '%P\n' -o -name "*.lic" -printf '%P\n' >| .gitignore
+    find . -type f -size +100M
     git add --all
     git commit -asm "Add ${description}"
     git update-ref -d HEAD
