@@ -1,7 +1,7 @@
 # dumpyara
 
-**[Telegram channel (feed)](https://t.me/android_dumps)**  
-**[Telegram group for dump requests](https://t.me/dumprequests)**
+**[Telegram channel (feed)](https://t.me/VanFirmwareDumps)**  
+**[Telegram group for dump discussions](https://t.me/+H0Hv150YiH81ZDhl)**
 
 **Script requirements**:
 
